@@ -1,14 +1,9 @@
-#import os
-
-#print("Files in directory:")
-#print(os.listdir("/home/ranjeet/Downloads/archive/"))
-# Import necessary libraries
 import pandas as pd
 
 # Load dataset
 
 print("Loading dataset...")
-df = pd.read_csv("/home/ranjeet/Downloads/archive/marketing_campaign.csv", sep='\t')
+df = pd.read_csv("marketing_campaign.csv", sep='\t')
 
 print("Data loaded. Shape:", df.shape)
 
